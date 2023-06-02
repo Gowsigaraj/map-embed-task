@@ -1,0 +1,141 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Raleway', sans-serif;
+
+}
+.container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.section {
+   display: flex;
+   gap:30px;
+   width: 60%;
+  background-image: linear-gradient(rgb(0 0 0 / 16%),rgb(0 0 0 / 16%)),url(../image/bc.jpg);
+   background-color:#cccccc;
+   height:600px; 
+   background-position: 0px -150px; 
+   background-repeat: no-repeat;
+   background-size: contain; 
+   position: relative;
+   
+ }
+ 
+ .map{
+   height: 600px;
+   width:50% ;
+   position: relative;
+
+ }
+ iframe{
+   position: absolute;
+   right:0px ;
+   top:80px ;
+ }
+ .log{
+   padding: 20px;
+   height: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+ 
+
+ }
+ h1{
+   font-weight: lighter;
+  
+ }
+ h2{
+   display: flex;
+   gap: 10px;
+  
+ }
+ .top{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+ .mail input{
+	 padding-left:20px;
+width: 100%;
+border: none;
+height:40px ;
+
+outline:0;
+ }
+ .meg input{
+   padding-left:20px ;
+   width: 100%;
+   border: none;
+   height:78px ;
+   outline:0;
+ }
+ 
+ .meg input[placeholder]{
+	  vertical-align:top;
+ }
+ 
+ .con{
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+ }
+
+ }
+ h6{
+   font-size: 18px;
+  
+   color: gray;
+   position: relative;
+ }
+  h5{
+   font-size: 12px;
+  
+   color: gray;
+   position: relative;
+ }
+ .login{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+ .nampho{
+   display: flex;
+   gap: 10px;
+  
+  
+ }
+ .nampho input{
+	  padding-left:20px;
+   width: 50%;
+   border: none;
+   height: 40px;
+  
+   outline:0;
+
+ }
+ .btnd{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+
+ }
+ .fa-envelope{
+	color:gray;
+    font-weight:bold;	
+	font-size:32px;
+ }
+ .btnd a{
+   z-index:2;
+   position: relative;
+   text-decoration:none;
+   background-color:#8787dc;
+   padding:6px 18px;
+   border-radius:4px;
+   color:white;
+ }
